@@ -1,0 +1,261 @@
+body {
+    max-width: 100%;
+    background-image: linear-gradient(to right, rgb(214, 85, 154), rgb(101, 227, 87));
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* GENERAL */
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(90, 12, 90);
+}
+
+p {
+    color: rgb(90, 12, 90);
+    text-align: center;
+}
+
+/* TOP NAVIGATION BAR */
+
+nav ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: rgb(90, 12, 90);
+    font-size: 15px;
+    text-transform: lowercase;
+    padding: 0 auto;
+    display: block;
+    text-decoration: none;
+}
+
+
+nav button {
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 1rem;
+    border-style: solid;
+    position: relative;
+    background: transparent;
+    transition: 0.1s;
+}
+
+nav button::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(218, 72, 211) 17.8%, rgb(26, 225, 63) 100.2% );
+    filter: blur(15px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+nav button:active {
+    transform: scale(0.9);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(218, 72, 211) 17.8%,  rgb(26, 225, 63) 100.2% );
+    transition: 0.1s;
+}
+
+#social,
+#projects,
+#skills,
+footer {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* TOP SECTION */
+
+#top-section {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+#top-section img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 300px;
+}
+
+/* SOCIAL MEDIA SECTION RELATIVE */
+
+/* .media-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.media-text {
+    text-align: left;
+}
+
+.media-button img {
+    width: 100%;
+}
+
+.media-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+    background-color: transparent;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.media-container .media-button h6 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.media-button:hover h6 {
+    opacity: 1;
+}
+
+.media-container .media-button img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.media-container .media-button:hover img {
+    transform: scale(1.1);
+} */
+
+/* PROJECT SECTION RELATIVE */
+
+#projects {
+    margin: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.projects img {
+    max-width: 100px;
+}
+
+article {
+    flex: 0 1 300px;
+    background-color: #f4f4f482;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* SKILSS SECTION RELATIVE */
+
+#skills img {
+    width: 100%;
+    margin: 20px;
+}
+
+#skills h2 {
+    margin-bottom: -20px;
+}
+
+#slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+
+#skills .slide {
+    position: relative;
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+
+#skills .slide h6 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-align: center;
+}
+
+#skills .slide:hover h6 {
+    opacity: 1;
+}
+
+#skills .slide img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+#skills .slide:hover img {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+
+footer {
+    color: rgb(90, 12, 90);
+    padding: 1rem;
+}
+
+.footer-text {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 500px;
+}
+
+#social {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+.media-button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: -50;
+}
