@@ -100,58 +100,6 @@ footer {
     width: 300px;
 }
 
-/* SOCIAL MEDIA SECTION RELATIVE */
-
-/* .media-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 20px;
-}
-
-.media-text {
-    text-align: left;
-}
-
-.media-button img {
-    width: 100%;
-}
-
-.media-button {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    position: relative;
-    background-color: transparent;
-    color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.media-container .media-button h6 {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:black;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.media-button:hover h6 {
-    opacity: 1;
-}
-
-.media-container .media-button img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s;
-}
-
-.media-container .media-button:hover img {
-    transform: scale(1.1);
-} */
 
 /* PROJECT SECTION RELATIVE */
 
